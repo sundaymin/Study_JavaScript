@@ -1,6 +1,10 @@
-let number = 1;
-let band = prompt("좋아하는 락밴드는?");
+const h1 = document.querySelector("h1")
+const p = document.getElementById("text")
 
-console.log(
-    `제가 좋아하는 락밴드는 ${band}고, 내 마음 속 ${number}위`
-    )
+console.log(h1.textContent);
+h1.textContent = "나를 h2로 변경할거야";
+
+console.log(p.textContent);
+p.textContent = "난 이제 아이디가 아니야";
+console.log(p.textContent);
+
