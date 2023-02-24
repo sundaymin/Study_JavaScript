@@ -1,23 +1,6 @@
-let plus = 10;
-console.log(plus-1); //9
-plus = 5;
-console.log(plus-1); //4
+let number = 1;
+let band = prompt("좋아하는 락밴드는?");
 
-//4개의 hello를 한번에 변경가능(=변수 재사용)
-let greet = "Hello";
-console.log(greet);
-console.log(greet);
-console.log(greet);
-console.log(greet);
-
-let aaa = 8;
-console.log(aaa); //8
-aaa = 4;
-console.log(aaa); //4
-
-const bbb = 5; //선언과 동시 초기화
-console.log(bbb); //5
-
-const prtMessage = "프롬프트에 표시될 문자열"
-const result = prompt(prtMessage);
-console.log(result);
+console.log(
+    `제가 좋아하는 락밴드는 ${band}고, 내 마음 속 ${number}위`
+    )
