@@ -1,10 +1,10 @@
-const h1 = document.querySelector("h1")
-const p = document.getElementById("text")
+let num1 = '3';
+let num2 = 3;
 
-console.log(h1.textContent);
-h1.textContent = "나를 h2로 변경할거야";
+console.log(num1 == num2); //true
+console.log(num1 === num2); //false
 
-console.log(p.textContent);
-p.textContent = "난 이제 아이디가 아니야";
-console.log(p.textContent);
+console.log(num1 != num2); //false 3과 3값이 같음
+console.log(num1 !== num2); //true 3문자열과 3정수
+
 
