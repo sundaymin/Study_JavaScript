@@ -9,3 +9,15 @@ console.log(greet);
 console.log(greet);
 console.log(greet);
 console.log(greet);
+
+let aaa = 8;
+console.log(aaa); //8
+aaa = 4;
+console.log(aaa); //4
+
+const bbb = 5; //선언과 동시 초기화
+console.log(bbb); //5
+
+const prtMessage = "프롬프트에 표시될 문자열"
+const result = prompt(prtMessage);
+console.log(result);
