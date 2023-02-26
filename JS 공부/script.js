@@ -1,16 +1,8 @@
-const button = document.getElementById("push");
-const div = document.getElementById("area");
+const form = document.querySelector("form");
 
-button.addEventListener('click',function(){
-    console.log("div 생성중");
-    const newDiv = document.createElement("div");//생성된 요소를
-
-    newDiv.style.backgroundColor = "red";//속성추가
-    newDiv.style.width = "200px";
-    newDiv.style.height = "200px";
-
-    div.appendChild(newDiv);// div요소안에 추가하기
-    
-    div.append("하하")
-
-});
+form.addEventListener("submit",function(e){ //이벤트 객체를 받아서
+    e.preventDefault() 
+    //이벤트 객체가 가지고 있는 preventDefault메서드는 기존의 기능을 차단함
+    console.log(form.name.value);
+    console.log(form.town.value);
+})
