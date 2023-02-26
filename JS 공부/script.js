@@ -1,16 +1,7 @@
-const h1 = document.querySelector('h1');
-const addBtn = document.querySelector('#add');
-const removeBtn = document.querySelector('#remove');
-const toggleBtn = document.querySelector('#toggle');
+const fruits = ["사과","배","포도","키위"]
+let index = 2
+console.log(fruits[1]); //배
+console.log(fruits[index]);//포도
+fruits[index]= "샤인머스켓";
+console.log(fruits[index]);//샤인머스켓
 
-console.log(h1.classList);
-
-addBtn.addEventListener('click',function(){
-    h1.classList.add('text');
-})
-removeBtn.addEventListener('click',function(){
-    h1.classList.remove('text');
-})
-toggleBtn.addEventListener('click',function(){
-    h1.classList.toggle('text');
-})
