@@ -3,7 +3,7 @@ JavaScript Basics and Mini-Projects : by 유노코딩🐧
 
 ---
 
-##1. Digital Clock
+## Digital Clock
 
 #### 기능
 
