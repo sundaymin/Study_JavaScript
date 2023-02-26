@@ -1,12 +1,16 @@
-const btn1 = document.getElementById("one");
-const btn2 = document.getElementById("two");
-const btn3 = document.getElementById("three");
+const button = document.getElementById("push");
+const div = document.getElementById("area");
 
-//이벤트 객체 확인(매개변수로 event(임의))
-const handleClick = function(event){
-    console.log(event.target);
-}
-btn1.addEventListener('click', handleClick);
-btn2.addEventListener('click', handleClick);
-btn3.addEventListener('click', handleClick);
-//매개변수로 입력 받은 값을 출력
+button.addEventListener('click',function(){
+    console.log("div 생성중");
+    const newDiv = document.createElement("div");//생성된 요소를
+
+    newDiv.style.backgroundColor = "red";//속성추가
+    newDiv.style.width = "200px";
+    newDiv.style.height = "200px";
+
+    div.appendChild(newDiv);// div요소안에 추가하기
+    
+    div.append("하하")
+
+});
