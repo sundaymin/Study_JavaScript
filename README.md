@@ -1,7 +1,6 @@
 # Study_JavaScript
 JavaScript Basics and Mini-Projects : by 유노코딩🐧
 
----
 
 ## Digital Clock
 
@@ -15,4 +14,4 @@ JavaScript Basics and Mini-Projects : by 유노코딩🐧
 * 내장 객체인 Date와 주요 메서드 활용
 * setInterval method 활용하여 초단위 호출
 
----
+--
