@@ -1,7 +1,7 @@
-const fruits = ["사과","배","포도","키위"]
-let index = 2
-console.log(fruits[1]); //배
-console.log(fruits[index]);//포도
-fruits[index]= "샤인머스켓";
-console.log(fruits[index]);//샤인머스켓
+const pet = ["강아지","고양이","앵무새","햄스터"];
+
+console.log(pet);
+pet.forEach(function(param){
+    console.log(param);//배열의 요소를 각각 실행함
+});
 
