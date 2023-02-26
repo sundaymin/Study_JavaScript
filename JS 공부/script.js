@@ -1,8 +1,11 @@
-const form = document.querySelector("form");
+const select = document.querySelector('select');
+const button = document.querySelector('button');
 
-form.addEventListener("submit",function(e){ //이벤트 객체를 받아서
-    e.preventDefault() 
-    //이벤트 객체가 가지고 있는 preventDefault메서드는 기존의 기능을 차단함
-    console.log(form.name.value);
-    console.log(form.town.value);
+button.addEventListener('click',function(){
+    console.log(select.value);//셀렉트태그의 값을 읽어옴
+    let result;
+    result = select.value == "foot"?
+    "축구를 선택함" :
+    "축구를 안선택함"
+    alert(result);
 })
