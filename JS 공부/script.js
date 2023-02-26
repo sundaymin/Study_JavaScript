@@ -1,12 +1,12 @@
+const btn1 = document.getElementById("one");
+const btn2 = document.getElementById("two");
+const btn3 = document.getElementById("three");
 
-function thereIsReturn(){
-    console.log("반환값이 있다");
-    return 10, 20, 30, 40; 
+//이벤트 객체 확인(매개변수로 event(임의))
+const handleClick = function(event){
+    console.log(event.target);
 }
-
-const result = thereIsReturn()
-console.log(result);//마지막인 40만 반환
-
-
-
-
+btn1.addEventListener('click', handleClick);
+btn2.addEventListener('click', handleClick);
+btn3.addEventListener('click', handleClick);
+//매개변수로 입력 받은 값을 출력
