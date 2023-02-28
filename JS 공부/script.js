@@ -1,6 +1,4 @@
-const messi = `{"name":"메시","age":34,"team":"파리 생제르망","nation":"아르헨티나","friends":["아구에로","수아레즈","네이마르"]}`
-
-console.log(JSON.parse(messi));
-//{name: '메시', age: 34, team: '파리 생제르망', nation: '아르헨티나', friends: Array(3)} object
-console.log(typeof JSON.parse(messi))//string
-//parse는 json에서 ' 는 환원하지 못한다.(무시함)
+const myName = localStorage.getItem("myName")
+alert(myName); //썬, 이라는 alert발생
+localStorage.removeItem("myName")//이제 사라짐
+localStorage.clear()//ls다 비우기
